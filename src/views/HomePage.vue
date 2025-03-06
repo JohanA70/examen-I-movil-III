@@ -61,7 +61,7 @@ const fetchRepository = async () => {
 </script>
 
 <template>
-  <ion-page> <!-- Agregar este contenedor -->
+  <ion-page>
     <ion-header>
       <ion-toolbar>
         <ion-title>GitHub Repository Finder</ion-title>
@@ -146,18 +146,15 @@ ion-item, ion-card {
   --color: black;
 }
 
-/* Estilo para el ion-label */
 ion-label {
   color: black;
 }
 
-/* Estilo para el ion-select */
 ion-select {
   --background: white;
   --color: black;
 }
 
-/* Estilo para los ion-card-content y ion-card-title */
 ion-card-content, ion-card-title {
   color: black;
 }
